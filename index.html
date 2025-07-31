@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Com Validação</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/style.css">
+</head>
+
+<body>
+    <main class="main">
+        <div class="texto-esquerda">
+            <h3 class="titulo">FICOU COM DÚVIDA?<br>
+                NOS MANDE UMA MENSAGEM!</h3>
+            <p class="paragrafo">caso tenha ficado com qualquer dúvida, basta nos mandar uma mensagem e entraremos em
+                contato em menos de 24h</p>
+        </div>
+        <form action="#" method="get" class="form" id="form">
+            <input type="text" id="nome" class="input" placeholder="Nome completo*">
+            <p class="campo-faltando">campo obrigatório</p>
+            <input type="email" id="email" class="input" placeholder="E-mail*">
+            <p class="campo-faltando">campo obrigatório</p>
+            <input type="tel" id="telefone" class="input" placeholder="Telefone*">
+            <p class="campo-faltando">campo obrigatório</p>
+            <textarea rows="5" id="mensagem" class="input mensagem" placeholder="Mensagem*"></textarea>
+            <p class="campo-faltando">campo obrigatório</p>
+            <p class="campo-obrigatorio">* campos obrigatórios</p>
+            <button id="btn" class="btn">Enviar</button>
+        </form>
+    </main>
+    <script src="src/js/index.js"></script>
+</body>
+
+</html>

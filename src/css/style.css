@@ -1,0 +1,90 @@
+body{
+    background: url(../imagens/bg-repeat.jpg);
+    background-repeat: repeat-x;
+    background-size: contain;
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto-esquerda{
+    color: #fff;
+    width: 300px;
+    margin: 50px;
+}
+
+.titulo{
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+.paragrafo{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.form{
+    display: flex;
+    background-color: #fff;
+    align-items: left;
+    justify-content: center;
+    gap: 15px;
+    flex-direction: column;
+    width: 340px;
+    height: 380px;
+    padding: 20px 20px;
+}
+
+.input, .mensagem{
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid black;
+}
+
+.errado{
+    border: 1.5px solid red;
+}
+.certo{
+    border: 1.5px solid rgb(22, 185, 22);
+}
+
+.campo-faltando{
+    margin-top: -16px;
+    margin-bottom: -8px;
+    color: red;
+    font-size: 10px;
+    display: none;
+}
+
+.mensagem{
+    height: 100px;
+    resize: none;
+}
+
+.campo-obrigatorio{
+    font-size: 15px;
+}
+
+.btn{
+    width: 100%;
+    height: 12%;
+    background-color: #3eda9e;
+    border: none;
+    border-radius: 6px;
+    color: #ffffff;
+    font-weight: bolder;
+}
+
+.btn:hover{
+    background-color: #23cf8d;
+    transition: 0.2s;
+    cursor: pointer;
+}
